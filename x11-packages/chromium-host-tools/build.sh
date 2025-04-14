@@ -144,11 +144,6 @@ termux_step_configure() {
 	touch $_common_args_file
 
 	echo "
-# Set google key to disable the warning slogan
-# Please DO NOT USE THIS KEY OUTSIDE OF TUR!
-google_api_key = \"$_google_api_key\"
-google_default_client_id = \"$_google_default_client_id\"
-google_default_client_secret = \"$_google_default_client_secret\"
 # Do official build to decrease file size
 is_official_build = true
 is_debug = false
